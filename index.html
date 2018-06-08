@@ -1,77 +1,20 @@
 ---
-layout: null
-title: Jekyll Theme - Home Page - Massively
-description: Every great website starts with a great homepage. The homepage tells your viewers what your site is all about and gives your viewers a place to come back to.
+layout: page
+title: Jekyll Theme - About - Massively
+description: When building a website it's helpful to see what the focus of your site is. This page is an example of how to show a website's focus.
 sitemap:
-    priority: 1.0
+    priority: 0.7
     lastmod: 2017-11-02
     changefreq: weekly
 ---
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-  Jekyll integration by somiibo.com
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-    {% include head.html %}
 
+<!-- Featured Post -->
+<article class="post featured">
+<span class="image left"><img src="{{ "/images/jon-tyson-224556-unsplash.jpg" | absolute_url }}" alt="" /></span>
+<p>I am a San Francisco based, freelance iOS application developer offering a wide range of services and solutions. I’ve been a software engineer in the mobile space since 2005 with a proven track record of completing projects on time and exceeding client expectations. At Zynga, I was responsible for bringing several high profile games, including Farmville for iOS and Cityville for iOS, to market. In recent years I’ve shipped multiple utility and lifestyle applications as well. I’m interested in opportunities which provide new challenges and allow me to expand my skill set.<br>
+I am currently only looking for contract work. If you have an idea and would like to collaborate, feel free to contact me.<br>
+<em>Note: Please be aware of fraudulent developers on websites like Upwork/Odesk/Elance using my name and likeness to attract clients. I do not use those websites to find work.</em>
+</p>
 
-	</head>
-	<body class="is-loading">
+</article>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
-
-				<!-- Header -->
-					<header id="header">
-						<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
-					</header>
-
-				<!-- Nav -->
-					<nav id="nav">
-
-            {% include nav.html %}
-
-						<ul class="icons">
-              <li><a href="https://twitter.com/{{site.twitter}}" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
-              <li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>
-              <li><a href="https://instagram.com/{{site.instagram}}" class="icon fa-instagram" rel="nofollow"><span class="label">Instagram</span></a></li>
-              <li><a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
-
-				<!-- Main -->
-					<div id="main">
-						<!-- Featured Post -->
-            <article class="post featured">
-              <span class="image left"><img src="{{ "/images/jon-tyson-224556-unsplash.jpg" | absolute_url }}" alt="" /></span>
-              <p>I am a San Francisco based, freelance iOS application developer offering a wide range of services and solutions. I’ve been a software engineer in the mobile space since 2005 with a proven track record of completing projects on time and exceeding client expectations. At Zynga, I was responsible for bringing several high profile games, including Farmville for iOS and Cityville for iOS, to market. In recent years I’ve shipped multiple utility and lifestyle applications as well. I’m interested in opportunities which provide new challenges and allow me to expand my skill set.<br>
-              I am currently only looking for contract work. If you have an idea and would like to collaborate, feel free to contact me.<br>
-              <em>Note: Please be aware of fraudulent developers on websites like Upwork/Odesk/Elance using my name and likeness to attract clients. I do not use those websites to find work.</em>
-              </p>
-
-            </article>
-
-						<!-- Footer -->
-							<footer>
-                <ul class="actions">
-                  <li><a href="https://www.sfsoftwareist.com" class="button">Blog</a></li>
-                </ul>
-							</footer>
-
-					</div>
-
-				<!-- Footer -->
-        {% include foot.html %}
-
-			</div>
-
-		<!-- Scripts -->
-		{% include scripts-main.html %}
-    {% include tracking.html %}
-
-	</body>
-</html>
