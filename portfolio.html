@@ -9,20 +9,34 @@ sitemap:
 asset-location: 'portfolio-assets'
 ---
 <link type="text/css" rel="stylesheet" href={{ "/assets/lightslider/css/lightslider.min.css" | absolute_url }} /> 
+<link type="text/css" rel="stylesheet" href={{ "/assets/lightgallery/css/lightgallery.min.css" | absolute_url }} /> 
 <script type="text/javascript">
-  $(document).ready(function() {
-    var ls =  $("#lightSlider");
-    ls.lightSlider({
-      item: 5
-    }); 
+$(document).ready(function() {
+  var ls =  $("#imageGallery");
+  ls.lightSlider({
+    item:5,
+    loop:true,
+    slideMargin:0,
+    enableDrag: false,
+    currentPagerPosition:'left',
+    onSliderLoad: function(el) {
+      el.lightGallery({
+        selector: '#imageGallery .lslide',
+        height: '800px',
+        download: false,
+        counter: false
+      });
+    }
   });
+  <!--ls.lightGallery();-->
+});
 </script>
 {% for project in site.projects %}
   <h2>{{ project.title }}</h2>
   {{ project.content }}
-  <ul id="lightSlider">
+  <ul id="imageGallery">
     {% for image in project.images %}
-      <li>
+      <li data-src="/{{ page.asset-location }}/{{ project.name }}/{{ image }}">
         <img src="/{{ page.asset-location }}/{{ project.name }}/{{ image }}" alt="" style="width: 100%" />
       </li>
     {% endfor %}
