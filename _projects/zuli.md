@@ -1,6 +1,8 @@
 ---
 name: zuli
 title: ZULI
+videos:
+  - zuli
 images:
   - object-dim.png
   - object-schedule-hours.png

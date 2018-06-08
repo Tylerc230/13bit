@@ -34,10 +34,29 @@ $(document).ready(function() {
 {% for project in site.projects %}
   <h2>{{ project.title }}</h2>
   {{ project.content }}
+  {% assign project-assets = "/" | append: page.asset-location | append: "/" | append: project.name %}
+  {% for video in project.videos %}
+    {% assign vid-path =  project-assets | append: "/" | append: video  %}
+    {% assign vid-sel = project.name | append: "-" | append: video %}
+    <div style="display:none;" id="{{ vid-sel }}">
+        <video class="lg-video-object lg-html5" preload="none" controls autoplay loop>
+            <source src={{ vid-path | append: ".mov" }} type="video/mp4">
+             Your browser does not support HTML5 video.
+        </video>
+    </div>
+  {% endfor %}
   <ul id="imageGallery">
+    {% for video in project.videos %}
+      {% assign vid-path =  project-assets | append: "/" | append: video  %}
+      {% assign vid-sel = project.name | append: "-" | append: video %}
+      <li data-html="#{{ vid-sel }}">
+        <img src="{{ vid-path | append: ".png"}}" alt="" style="width: 100%" />
+      </li>
+    {% endfor %}
     {% for image in project.images %}
-      <li data-src="/{{ page.asset-location }}/{{ project.name }}/{{ image }}">
-        <img src="/{{ page.asset-location }}/{{ project.name }}/{{ image }}" alt="" style="width: 100%" />
+      {% assign img-path =  project-assets | append: "/" | append: image  %}
+      <li data-src="{{ img-path }}">
+        <img src="{{ img-path }}" alt="" style="width: 100%" />
       </li>
     {% endfor %}
   </ul>
