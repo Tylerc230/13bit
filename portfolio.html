@@ -8,10 +8,23 @@ sitemap:
     changefreq: weekly
 asset-location: 'portfolio-assets'
 ---
+<link type="text/css" rel="stylesheet" href={{ "/assets/lightslider/css/lightslider.min.css" | absolute_url }} /> 
+<script type="text/javascript">
+  $(document).ready(function() {
+    var ls =  $("#lightSlider");
+    ls.lightSlider({
+      item: 5
+    }); 
+  });
+</script>
 {% for project in site.projects %}
   <h2>{{ project.title }}</h2>
   {{ project.content }}
-  {% for image in project.images %}
-    <img src="/{{ page.asset-location }}/{{ project.name }}/{{ image }}" alt="" />
-  {% endfor %}
+  <ul id="lightSlider">
+    {% for image in project.images %}
+      <li>
+        <img src="/{{ page.asset-location }}/{{ project.name }}/{{ image }}" alt="" style="width: 100%" />
+      </li>
+    {% endfor %}
+  </ul>
 {% endfor %}
