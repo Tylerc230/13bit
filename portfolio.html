@@ -6,4 +6,12 @@ sitemap:
     priority: 0.7
     lastmod: 2017-11-02
     changefreq: weekly
+asset-location: 'portfolio-assets'
 ---
+{% for project in site.projects %}
+  <h2>{{ project.title }}</h2>
+  {{ project.content }}
+  {% for image in project.images %}
+    <img src="/{{ page.asset-location }}/{{ project.name }}/{{ image }}" alt="" />
+  {% endfor %}
+{% endfor %}
