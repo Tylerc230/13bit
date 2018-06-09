@@ -33,7 +33,7 @@ $(document).ready(function() {
 </script>
 {% assign sorted_projects =  site.projects | sort: 'order' | reverse %}
 {% for project in sorted_projects %}
-  <h2>{{ project.title }}</h2>
+  <h3>{{ project.title }}</h3>
   {{ project.content }}
   {% assign project-assets = "/" | append: page.asset-location | append: "/" | append: project.name %}
   {% for video in project.videos %}
@@ -59,4 +59,5 @@ $(document).ready(function() {
       </li>
     {% endfor %}
   </ul>
+  <br>
 {% endfor %}
