@@ -1,7 +1,5 @@
 # Site
 title:              13bit
-bio:                'Jekyll version of the Massively theme by HTML5UP'
-description:        "Jekyll version of the Massively theme by HTML5UP"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
@@ -9,11 +7,11 @@ url: "" # the base hostname & protocol for your site
 defaults:
 - scope:
     path: ''
-    type: posts
+    type: pages
   values:
-    permalink: "/blog/:title/"
-    layout: post
-    author:
+    title: 13bit consulting
+    description: 13bit consulting corp is an iOS dev shop located in San Francisco
+    layout: page
 
 # Jekyll
 permalink:          /blog/:title/
