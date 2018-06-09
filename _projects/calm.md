@@ -1,5 +1,6 @@
 ---
 name: calm
+order: 8
 title: Calm.com
 images:
   -  screen-shot-2013-03-28-at-9-51-46-pm.png      

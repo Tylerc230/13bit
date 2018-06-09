@@ -1,5 +1,6 @@
 ---
 name: zuli
+order: 9
 title: ZULI
 videos:
   - zuli

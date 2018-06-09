@@ -31,7 +31,8 @@ $(document).ready(function() {
   });
 });
 </script>
-{% for project in site.projects %}
+{% assign sorted_projects =  site.projects | sort: 'order' | reverse %}
+{% for project in sorted_projects %}
   <h2>{{ project.title }}</h2>
   {{ project.content }}
   {% assign project-assets = "/" | append: page.asset-location | append: "/" | append: project.name %}

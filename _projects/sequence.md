@@ -1,5 +1,6 @@
 ---
 name: sequence
+order: 7
 title: BestBuy
 videos:
   - best-buy

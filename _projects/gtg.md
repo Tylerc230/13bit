@@ -1,5 +1,6 @@
 ---
 name: gtg
+order: 3
 title: Games That Give
 images:
   -  ios-simulator-screen-shot-dec-1-2011-9-38-36-am.png               

@@ -1,5 +1,6 @@
 ---
 name: swipe
+order: 2
 title: Swipe
 images:
   - img_2454.png              

@@ -1,5 +1,6 @@
 ---
 name: farmville
+order: 4
 title: Farmville
 images:
   -  img_0828.png              
