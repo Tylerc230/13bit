@@ -2,6 +2,12 @@
 name: gtg
 title: Games That Give
 images:
+  -  ios-simulator-screen-shot-dec-1-2011-9-38-36-am.png               
+  -  ios-simulator-screen-shot-dec-1-2011-9-38-43-am.png               
+  -  ios-simulator-screen-shot-dec-1-2011-9-38-52-am.png               
+  -  ios-simulator-screen-shot-dec-1-2011-9-42-14-am.png               
+  -  ios-simulator-screen-shot-dec-1-2011-9-42-49-am.png               
+  -  ios-simulator-screen-shot-dec-1-2011-9-43-03-am.png               
 
 ---
-A simple dating app utilizing an intuitive swipe gesture, realtime chat and geolocation to help people meet other people. The majority of this app was implemented by myself over a 2 week period.
+An variety of parlor games built using a custom game engine. The game engine was built entirely by me in C++ using OpenGL ES. The app was written entirely in C++ with portability in mind.

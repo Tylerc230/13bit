@@ -5,4 +5,4 @@ videos:
   - best-buy
 
 ---
-A simple dating app utilizing an intuitive swipe gesture, realtime chat and geolocation to help people meet other people. The majority of this app was implemented by myself over a 2 week period.
+Sole developer on a digital circular prototype for Best Buy. This demo application utilizes advanced 3D CoreAnimation and OpenGL to achieve unique transitions and user interactions. The curling page animation was written using OpenGL shader technology.

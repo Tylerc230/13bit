@@ -2,6 +2,10 @@
 name: farmville
 title: Farmville
 images:
+  -  img_0828.png              
+  -  img_0829.png              
+  -  img_0830.png              
+  -  img_0831.png              
 
 ---
-A simple dating app utilizing an intuitive swipe gesture, realtime chat and geolocation to help people meet other people. The majority of this app was implemented by myself over a 2 week period.
+A native iOS version of the popular Flash game. Steve Jobs showcased Farmville for iOS at the 2010 WWDC in San Francisco. The client side utilized Core data, Cocos2D, AMF network protocol.
