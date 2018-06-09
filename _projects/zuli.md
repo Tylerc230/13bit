@@ -3,7 +3,9 @@ name: zuli
 order: 9
 title: ZULI
 videos:
-  - zuli
+  - file: zuli.mov
+    poster: zuli.png
+    key: zuli
 images:
   - object-dim.png
   - object-schedule-hours.png
