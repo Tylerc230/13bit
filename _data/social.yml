@@ -1,0 +1,16 @@
+- name: GitHub
+  link: 'https://github.com/Tylerc230'
+  social_icon: GitHub
+  new_window: true
+- name: LinkedIn
+  link: https://www.linkedin.com/in/tylerc230/
+  social_icon: LinkedIn
+  new_window: true
+- name: Blog
+  link: 'https://www.sfsoftwareist.com'
+  social_icon: font
+  new_window: true
+- name: Email
+  link: mailto:tyler@13bit.io
+  social_icon: envelope-o
+  new_window: false
