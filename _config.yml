@@ -2,7 +2,7 @@
 title:              13bit
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://www.13bit.io" # the base hostname & protocol for your site
 
 defaults:
 - scope:
@@ -10,7 +10,7 @@ defaults:
     type: pages
   values:
     title: 13bit consulting
-    description: 13bit consulting corp is an iOS dev shop located in San Francisco
+    description: 13bit consulting is an iOS development shop based in San Francisco
     layout: page
 
 # Jekyll
@@ -34,17 +34,10 @@ collections:
 # Comments
 disqus_shortname:   default
 
-# Social
-analytics-id:       "default"
-twitter:            default
-facebook:           default
-instagram:          default
-github:             default
-
 # personal
-location:           Los Angeles, CA
-phone:              310-318-5555
-email:              info@default.com
+location:           San Francisco CA
+phone:              415-734-7235
+email:              tyler@13bit
 
 # Gems
 gems:
