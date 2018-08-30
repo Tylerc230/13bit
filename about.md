@@ -16,4 +16,4 @@ Long before the iPhone, I decided to work in the mobile space because of the imm
 I consider myself to be a jack of all trades. I've spent time writing firmware and designing PCBs for personal projects. I've done substantial server side development in Python and Ruby, spent time writing OpenGL shaders and climbed the functional ladder. I consider TDD to be a essential tool in the fight against technical debt. Every new skill mastered is a potential solution to problem.
 
 Cooking and riding bikes is the best way I know to balance a long day spent in front of the computer. Lately I've been recording my thoughts on programming and technology in my [blog](https://www.sfsoftwareist.com). 
-If there is a project you'd like help on or just want to grab a cup of coffee and chat about technology, feel free to [contact me](mailto:tyler@13bit.io).
+If there is a project you'd like help on or just want to grab a cup of coffee and chat about technology, feel free to [contact me](mailto:tyler@13bit.io)..
