@@ -1,1 +1,2 @@
-scp -r _site/. casselmanconsult@ftp3.ftptoyoursite.com:/www.13bit.io/web/content
+bundle _2.0.1_ install
+git push
